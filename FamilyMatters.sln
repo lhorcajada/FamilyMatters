@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7636A48-39C6-4C9D-8B2C-F2605BC3EA0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. client", "0. client", "{4B69148A-EF88-446D-AC4E-475C7FD0FC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. api", "1. api", "{90C4426A-AA43-48FF-8167-D0772E07E5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyMatters.Api", "src\1. Api\FamilyMatters.Api\FamilyMatters.Api.csproj", "{40ACCCC7-4DC6-4ECC-A4E4-316960ED203E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40ACCCC7-4DC6-4ECC-A4E4-316960ED203E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ACCCC7-4DC6-4ECC-A4E4-316960ED203E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ACCCC7-4DC6-4ECC-A4E4-316960ED203E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ACCCC7-4DC6-4ECC-A4E4-316960ED203E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B69148A-EF88-446D-AC4E-475C7FD0FC0C} = {E7636A48-39C6-4C9D-8B2C-F2605BC3EA0B}
+		{90C4426A-AA43-48FF-8167-D0772E07E5B1} = {E7636A48-39C6-4C9D-8B2C-F2605BC3EA0B}
+		{40ACCCC7-4DC6-4ECC-A4E4-316960ED203E} = {90C4426A-AA43-48FF-8167-D0772E07E5B1}
+	EndGlobalSection
+EndGlobal
