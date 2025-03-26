@@ -1,0 +1,6 @@
+@FamilyMatters.Api_HostAddress = http://localhost:5298
+
+GET {{FamilyMatters.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

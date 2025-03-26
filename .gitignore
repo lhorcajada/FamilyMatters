@@ -1,0 +1,53 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Pp]ackages/
+Log*.log
+
+# Visual Studio 2015 cache/options directory
+.vs/
+/src/Automatization/**/*.js
+/src/Automatization/**/*.js.map
+/src/Deploy/logs
+/src/Automatization/ConfigurationManager/**/*.js
+/src/Automatization/ConfigurationManager/**/*.js.map
+/src/Automatization/ConfigurationManager/node_modules
+/src/Automatization/ConfigurationManager/dist
+
+#Database project files
+*.dbmdl
+*.jfm
+
+#Specflow auto-generated files
+**/*.feature.cs
+
+#Smarteca API documentation file
+/src/Smarteca.Library.Api/Smarteca.Library.Api.xml
+#VScode configuration
+.vscode
+
+# e2e Tests
+src/Presentation.Tests.e2e/Reports/*.png
+/src/1-Presentation/app/.angular
+/src/database_dev_30_01_25.bacpac
